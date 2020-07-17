@@ -27,10 +27,14 @@
   - {name: error, within: []}
   - {name: errorWithoutStackTrace, within: []}
   - {name: fromJust, within: []}
-  - {name: head, within: []}
-  - {name: last, within: []}
-  - {name: init, within: []}
-  - {name: tail, within: []}
+  - {name: Prelude.head, within: []}
+  - {name: Prelude.last, within: []}
+  - {name: Prelude.init, within: []}
+  - {name: Prelude.tail, within: []}
+  - {name: Data.List.head, within: []}
+  - {name: Data.List.last, within: []}
+  - {name: Data.List.init, within: []}
+  - {name: Data.List.tail, within: []}
   - {name: "!!", within: []}
 
 # Add custom hints for this project
