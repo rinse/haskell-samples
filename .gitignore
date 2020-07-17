@@ -1,3 +1,4 @@
 .stack-work/
 haskell-samples.cabal
 *~
+stack.yaml.lock
