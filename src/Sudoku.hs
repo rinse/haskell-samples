@@ -1,17 +1,17 @@
 module Sudoku where
 
+import           Algorithm.Dfs (dfs)
 import           Control.Monad (guard)
 import           Data.Foldable (fold)
 import           Data.Function (on)
 import           Data.List     (minimumBy)
 import           Data.Maybe    (catMaybes, maybeToList)
-import           Dfs           (dfs)
 
 
 type Element = Int
 type Table = [[Element]]
 
-{- | Solves sudoku.
+{- Solves sudoku.
 >>> :{
 solveSudoku [ [8,0,0,0,0,0,0,0,0]
             , [0,0,3,6,0,0,0,0,0]
