@@ -1,4 +1,4 @@
-module TopologicalSort where
+module Algorithm.TopologicalSort where
 
 import           Data.List  ((\\))
 import           Data.Maybe (listToMaybe)
